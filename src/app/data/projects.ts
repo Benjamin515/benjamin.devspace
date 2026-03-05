@@ -54,7 +54,7 @@ export const projects: Project[] = [
   //   Category: Creative Industries — Interactive Portfolios
   {
     id: "1",
-    slug: "the-artist's-path",
+    slug: "the-artists-path",
     title: "Interactive Storytelling Microsite",
     tagline:
       "Cinematic, scroll-driven narrative experience with user-controlled pacing",
@@ -170,7 +170,7 @@ export const projects: Project[] = [
     ],
 
     links: {
-      live: "https://the-artist's-path.netlify.app",
+      live: "https://the-artists-path.netlify.app",
       code: "https://github.com/Benjamin515/the-artist's-path",
       storybook: "https://the-artist's-path.netlify.app",
     },
@@ -181,7 +181,7 @@ export const projects: Project[] = [
   //   Category: Scalable E-Commerce Platforms
   {
     id: "2",
-    slug: "tech-store",
+    slug: "etech-store",
     title: "TechStore Commerce Platform",
     tagline:
       "Enterprise-grade electronics ecommerce at true large-scale architecture",
@@ -322,7 +322,7 @@ export const projects: Project[] = [
     ],
 
     links: {
-      live: "https://tech-store.netlify.app",
+      live: "https://etech-store.netlify.app",
       code: "https://github.com/Benjamin515/tech-store",
       storybook: "https://tech-store.netlify.app",
     },
@@ -866,7 +866,7 @@ export const projects: Project[] = [
   //   Category: Real-Time Analytics Dashboards
   {
     id: "7",
-    slug: "customer-360",
+    slug: "ecustomer-360",
     title: "Customer 360 Real-Time Insights Platform",
     tagline:
       "Unified real-time customer intelligence for marketing and CX teams",
@@ -993,7 +993,7 @@ export const projects: Project[] = [
     ],
 
     links: {
-      live: "https://customer-360.netlify.app",
+      live: "https://ecustomer-360.netlify.app",
       code: "https://github.com/Benjamin515/customer-360",
     },
   },
@@ -1140,7 +1140,7 @@ export const projects: Project[] = [
   //   Category: Real-Time Analytics Dashboards
   {
     id: "9",
-    slug: "fraud-shield",
+    slug: "efraud-shield",
     title: "Real-Time Fraud Detection Dashboard",
     tagline:
       "Streaming risk intelligence platform for rapid financial fraud intervention",
@@ -1265,7 +1265,7 @@ export const projects: Project[] = [
     ],
 
     links: {
-      live: "https://fraud-shield.netlify.app",
+      live: "https://efraud-shield.netlify.app",
       code: "https://github.com/Benjamin515/fraud-shield",
     },
   },

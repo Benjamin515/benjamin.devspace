@@ -15,14 +15,15 @@ import {
   MessageSquare,
   Github,
   Linkedin,
-  Twitter,
   Calendar,
   MapPin,
+  Download,
 } from "lucide-react";
 import { motion } from "motion/react";
 import { fadeInUp, duration, easing, stagger } from "../lib/motion";
 import { useState } from "react";
 import { toast } from "sonner";
+import { downloadResume } from "../lib/resume";
 
 const contactMethods = [
   {
@@ -35,7 +36,7 @@ const contactMethods = [
     icon: Calendar,
     label: "Schedule a Call",
     value: "Book a 30-min chat",
-    href: "https://calendly.com/benjamin515webdev",
+    href: "https://calendly.com/benjamin515webdev/portfolio-discussion-with-benjamin",
   },
   {
     icon: Phone,
@@ -310,7 +311,13 @@ export function Contact() {
                       schedule a call to discuss your needs.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-3">
-                      <Button variant="secondary" className="flex-1">
+                      <Button
+                        variant="secondary"
+                        className="cursor-pointer flex-1"
+                        // title="/Eng. Benjamin CV.pdf"
+                        onClick={downloadResume}
+                      >
+                        <Download className="mr-2 h-4 w-4" />
                         Download Resume
                       </Button>
                       <Button

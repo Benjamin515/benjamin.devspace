@@ -3,6 +3,7 @@ import { Badge } from "../components/ui/badge";
 import { Download, Award, Users, TrendingUp } from "lucide-react";
 import { motion } from "motion/react";
 import { fadeInUp, duration, easing, stagger } from "../lib/motion";
+import { downloadResume } from "../lib/resume";
 
 const timeline = [
   {
@@ -139,12 +140,17 @@ export function About() {
               user experiences.
             </p>
             <div className="mt-10 flex items-center gap-x-6">
-              <Button size="lg">
+              <Button
+                className="cursor-pointer"
+                // title="/Eng. Benjamin CV.pdf"
+                size="lg"
+                onClick={downloadResume}
+              >
                 <Download className="mr-2 h-4 w-4" />
                 Download Resume
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <a href="#contact">Get in Touch</a>
+                <a href="/contact">Get in Touch</a>
               </Button>
             </div>
           </motion.div>

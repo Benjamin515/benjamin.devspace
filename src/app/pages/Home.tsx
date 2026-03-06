@@ -57,7 +57,10 @@ export function Home() {
     <div className="relative">
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent" />
+        <div
+          className="pointer-events-none absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent"
+          aria-hidden="true"
+        />
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
           <motion.div
             className="mx-auto max-w-2xl lg:mx-0"
@@ -80,9 +83,9 @@ export function Home() {
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <Button asChild size="lg">
-                <a href="#projects">
+                <Link to="/projects">
                   See Work <ArrowRight className="ml-2 h-4 w-4" />
-                </a>
+                </Link>
               </Button>
               <Button asChild variant="outline" size="lg">
                 <Link to="/contact">Schedule a Call</Link>

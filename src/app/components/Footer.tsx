@@ -15,7 +15,7 @@ const navigation = {
     },
     {
       name: "LinkedIn",
-      href: "https://linkedin.com/in/benjamin-mwiti-2a79b52a2",
+      href: "https://www.linkedin.com/in/benjamin-devspace/",
       icon: Linkedin,
     },
     /* {

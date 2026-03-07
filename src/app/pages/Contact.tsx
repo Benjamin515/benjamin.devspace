@@ -56,7 +56,7 @@ const contactMethods = [
     icon: Linkedin,
     label: "LinkedIn",
     value: "Connect with me",
-    href: "https://www.linkedin.com/in/benjamin-mwiti-2a79b52a2",
+    href: "https://www.linkedin.com/in/benjamin-devspace/",
   },
   /* {
     icon: Twitter,
@@ -326,7 +326,7 @@ export function Contact() {
                         asChild
                       >
                         <a
-                          href="https://calendly.com/benjamin515webdev"
+                          href="https://calendly.com/benjamin515webdev/portfolio-discussion-with-benjamin"
                           target="_blank"
                           rel="noopener noreferrer"
                         >

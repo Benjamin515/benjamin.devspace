@@ -1533,7 +1533,7 @@ export const projects: Project[] = [
   //   Category: Lifestyle & Personal — Wellness Dashboard
   {
     id: "12",
-    slug: "wellness-dashboard",
+    slug: "ewellness-dashboard",
     title: "Wellness Dashboard",
     tagline: "Calm, data-driven interface for daily health and habit tracking",
     summary:
@@ -1649,7 +1649,7 @@ export const projects: Project[] = [
     ],
 
     links: {
-      live: "https://wellness-dashboard.netlify.app",
+      live: "https://ewellness-dashboard.netlify.app",
       code: "https://github.com/Benjamin515/wellness-dashboard",
     },
   },
@@ -1764,9 +1764,9 @@ export const projects: Project[] = [
       "Deeper understanding of headless CMS content workflows and GraphQL API integration.",
     ],
     links: {
-      live: "https://hifadhi‑tech‑demo.com",
+      live: "https://hifadhi‑tech.com",
       code: "https://github.com/username/hifadhi‑tech‑landing",
-      storybook: "https://hifadhi‑tech‑demo.com/storybook",
+      storybook: "https://hifadhi‑tech.com/storybook",
     },
   },
   // Project 14:
@@ -1775,11 +1775,11 @@ export const projects: Project[] = [
   {
     id: "14",
     slug: "kijiji-solar-marketplace",
-    title: "Kijiji Solar Marketplace Demo",
+    title: "Kijiji Solar Marketplace",
     tagline:
-      "A design-focused demo marketplace connecting solar equipment sellers and local buyers",
+      "A design-focused marketplace connecting solar equipment sellers and local buyers",
     summary:
-      "Built a polished marketplace demo for solar equipment and services, providing fast discovery, trustworthy listings, and rich comparison features for homeowners and small business owners.",
+      "Built a polished marketplace for solar equipment and services, providing fast discovery, trustworthy listings, and rich comparison features for homeowners and small business owners.",
     role: "Frontend Engineer",
     timeline: "3 months (Nov 2025 – Jan 2026)",
     team: "2 engineers, 1 designer, 1 UX researcher, 1 product manager, 1 content strategist, 1 QA engineer",
@@ -1803,7 +1803,7 @@ export const projects: Project[] = [
       "Optimized accessibility, performance, and mobile-first responsive design",
     ],
     hero: "https://images.unsplash.com/photo-1581092918360-68f41dcfc6f5?w=1200",
-    category: "Solar Marketplace Demo",
+    category: "Solar Marketplace",
     featured: false,
     problem: [
       "Consumers and small installers struggle to find vetted, locally available solar equipment with clear pricing, visuals, and trust signals.",
@@ -1811,12 +1811,12 @@ export const projects: Project[] = [
       "Existing solutions are often static or poorly designed, reducing user trust and engagement.",
     ],
     constraints: [
-      "Deliver a rich, interactive front-end demo in 3 months",
+      "Deliver a rich, interactive front-end in 3 months",
       "Ensure mobile-first responsive design and high performance",
       "Accessibility must meet WCAG AA standards for all components",
     ],
     successCriteria: [
-      "Responsive, interactive marketplace demo with search, filters, and comparison functionality",
+      "Responsive, interactive marketplace with search, filters, and comparison functionality",
       "Accessible and high-performance components with smooth micro-interactions",
       "Reusable UI components and modular architecture for future extension",
     ],
@@ -1877,7 +1877,7 @@ export const projects: Project[] = [
       },
     ],
     learnings: [
-      "Refined techniques for building highly interactive, data-driven marketplace demos.",
+      "Refined techniques for building highly interactive, data-driven marketplaces.",
       "Improved strategies for responsive, accessible, and performant card-based layouts.",
       "Experience designing scalable component libraries with future extensibility in mind.",
     ],
@@ -2013,7 +2013,7 @@ export const projects: Project[] = [
     title: "Neighborhood — Local Community Events Hub",
     tagline: "Discover, RSVP, and engage with local events in real time",
     summary:
-      "Built a front-end demo platform allowing users to find, join, and manage neighborhood events with live updates, map integration, and interactive RSVP features, all without a backend.",
+      "Built a front-end platform allowing users to find, join, and manage neighborhood events with live updates, map integration, and interactive RSVP features, all without a backend.",
     role: "Frontend Engineer",
     timeline: "3 months (Nov 2025 – Jan 2026)",
     team: "2 engineers, 1 designer, 1 UX researcher, 1 product manager, 1 QA engineer",

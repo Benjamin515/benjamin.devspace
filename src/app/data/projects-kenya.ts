@@ -116,7 +116,7 @@ export const kenyaProjects: Project[] = [
       "Deeper understanding of headless CMS content workflows and GraphQL API integration.",
     ],
     links: {
-      live: "https://hifadhi‑tech.netlify.com",
+      live: "https://hifadhi-tech.netlify.app",
       code: "https://github.com/Benjamin515/hifadhi‑tech",
       storybook: "https://hifadhi‑tech.com/storybook",
     },
@@ -235,7 +235,7 @@ export const kenyaProjects: Project[] = [
       "Experience designing scalable component libraries with future extensibility in mind.",
     ],
     links: {
-      live: "https://kijiji-solar.netlify.com",
+      live: "https://kijiji-solar.netlify.app",
       code: "https://github.com/Benjamin515/kijiji-solar",
       storybook: "https://kijiji-solar.com/storybook",
     },
@@ -353,7 +353,7 @@ export const kenyaProjects: Project[] = [
       "Gained insights into future-ready architecture for LMS, dashboards, CMS, and internationalization.",
     ],
     links: {
-      live: "https://tech-bora.netlify.com",
+      live: "https://tech-bora.netlify.app",
       code: "https://github.com/Benjamin515/tech-bora",
       storybook: "https://tech-bora.com/storybook",
     },
@@ -470,7 +470,7 @@ export const kenyaProjects: Project[] = [
       "Learned efficient strategies for offline-first and PWA-friendly feature development.",
     ],
     links: {
-      live: "https://event-hub-ke.netlify.com",
+      live: "https://event-hub-ke.netlify.app",
       code: "https://github.com/Benjamin515/event-hub-ke",
       storybook: "https://event-hub-ke.com/storybook",
     },

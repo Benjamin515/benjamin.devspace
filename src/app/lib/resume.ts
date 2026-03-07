@@ -1,5 +1,5 @@
-const RESUME_FILE = "/Eng. Benjamin CV.pdf";
-const RESUME_DOWNLOAD_NAME = "Eng. Benjamin CV.pdf";
+const RESUME_FILE = "/eng-benjamin-cv.pdf";
+const RESUME_DOWNLOAD_NAME = "eng-benjamin-cv.pdf";
 
 export function downloadResume() {
   const link = document.createElement("a");
